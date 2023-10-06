@@ -141,7 +141,38 @@ footer.container-fluid {
   text-align: center;
 }
 
-@media (max-with: 768) {
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .hero {
+    margin: 8rem auto 4rem;
+  }
+
+  .hero img {
+    margin-top: 1rem;
+  }
+
+  .quote {
+    padding: 4rem 0;
+  }
+
+  .container.extra {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
   .container.extra img {
     min-width: auto;
   }
