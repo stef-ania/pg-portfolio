@@ -82,12 +82,19 @@ a.nav-link.active {
   background-size: 1px 1px;
 }
 
+.nav-link:hover,
+a.nav-link.active:hover {
+  opacity: 0.8 !important;
+  transition: all 500ms ease-in-out;
+}
+
 li.nav-item {
   margin-left: 3rem;
 }
 
 /* Hero section */
-.hero {
+.hero,
+.hero-extra {
   margin: 10rem auto;
 }
 
@@ -185,8 +192,13 @@ footer.container-fluid {
     margin: 8rem auto 4rem;
   }
 
-  .hero img {
+  .hero img,
+  .hero-extra img {
     margin-top: 1rem;
+  }
+
+  .hero-extra {
+    margin: 4rem auto 4rem;
   }
 
   .quote {
@@ -200,5 +212,12 @@ footer.container-fluid {
 
   .container.extra img {
     min-width: auto;
+  }
+
+  .thumbnails img {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
