@@ -47,6 +47,13 @@ p {
   margin-top: 2rem;
 }
 
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
 /* Navigation bar */
 
 .navbar {
@@ -94,7 +101,8 @@ li.nav-item {
 /* Quote section */
 
 .quote {
-  background-color: var(--bg-tertiary-color);
+  /*background-color: var(--bg-tertiary-color);*/
+  background-color: #fff;
   padding: 10rem 0;
 }
 
@@ -128,10 +136,22 @@ li.nav-item {
   min-width: 480px;
 }
 
+img.img-fluid.abs {
+  left: -4rem;
+  position: absolute;
+  top: -4rem;
+  z-index: -1;
+}
+
 .square {
   background-color: #fff;
   max-width: 480px;
   padding: 3rem;
+  z-index: 1;
+}
+
+.thumbnails {
+  margin-top: 1rem;
 }
 
 footer.container-fluid {
@@ -150,6 +170,11 @@ footer.container-fluid {
   h3 {
     font-size: 1.5rem;
     line-height: 2.5rem;
+  }
+
+  .rel,
+  .img-fluid.abs {
+    position: static !important;
   }
 
   .navbar-light .navbar-toggler {
