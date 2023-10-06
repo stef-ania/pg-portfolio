@@ -1,6 +1,10 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --branding-color: #715550;
+  --bg-primary-color: #f8f5f0;
+  --bg-secondary-color: #ede9e5;
+  --bg-tertiary-color: #ded6ce;
+  --text-primary-color: #333;
+  --text-secondary-color: #595959;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
