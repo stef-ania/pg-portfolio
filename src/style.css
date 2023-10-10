@@ -20,8 +20,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font-family);
   margin: 0;
 }
@@ -31,9 +30,14 @@ h1 {
   line-height: 4rem;
 }
 
-h3 {
+h2 {
   font-size: 2rem;
   line-height: 3rem;
+}
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: bold;
 }
 
 strong {
@@ -114,7 +118,7 @@ li.nav-item {
   padding: 10rem 0;
 }
 
-.quote h3 {
+.quote h2 {
   font-style: italic;
   margin: 0 auto;
   max-width: 600px;
@@ -184,8 +188,8 @@ img.img-fluid.abs {
   margin-bottom: 4rem;
 }
 
-.work-y h3,
-.work-x h3 {
+.work-y h2,
+.work-x h2 {
   margin-top: 1rem;
 }
 
@@ -199,6 +203,33 @@ footer.container-fluid {
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--text-primary-color);
+}
+
+.img-credits {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.img-credits a,
+footer a {
+  color: var(--text-primary-color);
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+footer a:hover,
+.img-credits a:hover {
+  text-decoration: underline;
+  transition: all 300ms ease-in-out;
 }
 
 a.contact {
@@ -217,12 +248,15 @@ a.contact:hover {
   h1 {
     font-size: 2rem;
     line-height: 3rem;
-    margin-top: 1rem;
   }
 
-  h3 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+  h2 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  p {
+    margin-top: 1rem;
   }
 
   a.nav-link.active {
@@ -265,11 +299,16 @@ a.contact:hover {
 
   .container.block--square--text {
     padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
 
   .container.block--square--text img {
     min-width: auto;
+  }
+
+  .thumbnails {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
   }
 
   .thumbnails img {
