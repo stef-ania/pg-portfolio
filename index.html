@@ -11,6 +11,9 @@
 
     <title>Pao G. - Arquitecta y Urbanista</title>
 
+    <!-- Script -->
+    <script src="src/script.js" async></script>
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -53,7 +56,7 @@
     <main class="container block">
       <div class="row">
         <div class="col-md-5 y-align">
-          <div class="square">
+          <div class="square reveal-element" data-delay="200">
             <h1>Descubre el Arte de Transformar Espacios</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -63,12 +66,12 @@
           </div>
         </div>
         <div class="col-md-6 offset-md-1 order-first order-md-1">
-          <img src="img/1_640px.jpg" alt="arquitecture" class="img-fluid" />
+          <img src="img/1_640px.jpg" alt="arquitecture" class="img-fluid reveal-element" data-delay="400" />
         </div>
       </div>
     </main>
     <section class="container-fluid quote">
-      <div class="container">
+      <div class="container reveal-element">
         <h2>
           El diseño interior no es solo un trabajo,<span class="d-md-inline d-sm-none"><br /></span> es una pasión que
           da vida a tus sueños.
@@ -77,18 +80,24 @@
     </section>
     <section class="container-fluid no-x-space">
       <div class="row no-x-space">
-        <div class="col-sm-4 no-x-space"><img src="img/2_640x360px.jpg" alt="arquitecture" class="img-fluid" /></div>
-        <div class="col-sm-4 no-x-space"><img src="img/3_640x360px.jpg" alt="arquitecture" class="img-fluid" /></div>
-        <div class="col-sm-4 no-x-space"><img src="img/4_640x360px.jpg" alt="arquitecture" class="img-fluid" /></div>
+        <div class="col-sm-4 no-x-space">
+          <img src="img/2_640x360px.jpg" alt="arquitecture" class="img-fluid reveal-element" data-delay="200" />
+        </div>
+        <div class="col-sm-4 no-x-space">
+          <img src="img/3_640x360px.jpg" alt="arquitecture" class="img-fluid reveal-element" data-delay="400" />
+        </div>
+        <div class="col-sm-4 no-x-space">
+          <img src="img/4_640x360px.jpg" alt="arquitecture" class="img-fluid reveal-element" data-delay="600" />
+        </div>
       </div>
     </section>
     <section class="container block--square--text">
       <div class="row">
         <div class="col-lg-4 offset-lg-2 col-md-6">
-          <img src="img/5_480x600px.jpg" alt="arquitecture" class="img-fluid" />
+          <img src="img/5_480x600px.jpg" alt="arquitecture" class="img-fluid reveal-element" data-delay="0" />
         </div>
         <div class="col-lg-6 col-md-6 y-align">
-          <div class="square">
+          <div class="square reveal-element" data-delay="200">
             <h2>Lorem ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -101,13 +110,13 @@
     </section>
     <footer class="container-fluid">
       <div class="container">
-        <p>
+        <p class="reveal-element" data-delay="0">
           © 2023 Essential Studio | Coded with ❤︎ by Stef and
           <a href="https://github.com/stef-ania/pg-portfolio" title="Portfolio template" target="_blank"
             >open-sourced on GitHub</a
           >
         </p>
-        <div class="img-credits">
+        <div class="img-credits reveal-element" data-delay="200">
           <h3>Unsplash pictures credits:</h3>
           <small>
             <a href="https://unsplash.com/es/@spacejoy" title="Spacejoy's images" target="_blank">Spacejoy</a>

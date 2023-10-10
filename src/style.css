@@ -206,6 +206,7 @@ footer.container-fluid {
 }
 
 footer a {
+  color: var(--text-primary-color);
   font-weight: bold;
 }
 
@@ -214,14 +215,18 @@ footer a:hover {
 }
 
 .img-credits {
+  color: rgba(51, 51, 51, 0.5);
   display: block;
   margin: 0 auto;
-  opacity: 0.5;
+}
+
+.img-credits,
+.img-credits a {
+  color: rgba(51, 51, 51, 0.5);
 }
 
 .img-credits a,
 footer a {
-  color: var(--text-primary-color);
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
@@ -242,6 +247,21 @@ a.contact {
 a.contact:hover {
   opacity: 0.8;
   transition: all 300ms ease-in-out;
+}
+
+/* Microanimations */
+
+/* Scroll reveal effect */
+.reveal-element {
+  opacity: 0;
+  transform: translateY(1.875rem); /* Opcional: Mueve el elemento hacia abajo para un efecto adicional */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+/* Left side animation */
+.animated-element {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 2s ease, transform 2s ease;
 }
 
 @media (max-width: 768px) {
