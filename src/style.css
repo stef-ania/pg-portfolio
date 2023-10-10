@@ -153,13 +153,12 @@ img.img-fluid.abs {
 
 .square {
   background-color: #fff;
-  max-width: 480px;
   padding: 3rem;
   z-index: 1;
 }
 
 .thumbnails {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .row-flex {
