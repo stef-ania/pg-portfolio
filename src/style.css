@@ -266,12 +266,6 @@ a.contact:hover {
   transform: translateY(1.875rem); /* Opcional: Mueve el elemento hacia abajo para un efecto adicional */
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-/* Left side animation */
-.animated-element {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 2s ease, transform 2s ease;
-}
 
 @media (max-width: 768px) {
   h1 {
