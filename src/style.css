@@ -280,7 +280,22 @@ a.contact:hover {
   }
 
   a.nav-link.active {
-    max-width: 25%;
+    max-width: 30%;
+  }
+
+  .navbar-toggler:focus {
+    background-color: var(--bg-primary-color);
+    box-shadow: none;
+    outline: 0;
+    text-decoration: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+  li.nav-item {
+    margin: 1rem 1rem;
   }
 
   .rel,
